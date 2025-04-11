@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    height: 100vh;
+    background: #111;
+    flex-direction: row;
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #555;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffef00;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  

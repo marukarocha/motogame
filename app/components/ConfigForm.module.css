@@ -1,0 +1,50 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .box {
+    border: 1px solid #444;
+    padding: 15px;
+    border-radius: 8px;
+    background: #222;
+  }
+  
+  .box label {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .box input, 
+  .box select {
+    width: 100%;
+    padding: 10px;
+    background: #111;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  .box input[type="range"] {
+    cursor: pointer;
+  }
+  
+  .startButton {
+    background: #ffef00;
+    color: #111;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .startButton:hover {
+    background: #ffe600;
+  }
+  
